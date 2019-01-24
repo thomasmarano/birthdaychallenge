@@ -1,0 +1,7 @@
+<% if @your_birth_month == 'january' && @your_birthday == '13' %>
+    <h1> Happy Birthday! <h1><%=@your_name%></h1> Today is the day! </h1>
+    <h2><%=@your_birthday%> of <%=@your_birth_month%></h2>
+<% else %>
+    <h1> Thank you <h1><%=@your_name%> </h1>
+    <h1> Thanks the information, your birthday is coming up </h1>
+<% end %>
